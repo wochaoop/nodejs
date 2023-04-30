@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-const createWindow = () => {
-    const win = new BrowserWindow({
-        width: 800,
-        height: 600
-    })
-
-    win.loadFile('index.html')
-}
-=======
 // main.js
 
 // electron 模块可以用来控制应用的生命周期和创建原生浏览窗口
@@ -53,4 +43,3 @@ app.on('window-all-closed', () => {
 
 // 在当前文件中你可以引入所有的主进程代码
 // 也可以拆分成几个文件，然后用 require 导入。
->>>>>>> 7bc55c2 (初始化项目)
